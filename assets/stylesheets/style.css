@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+/* To prevent any additional padding(will cause horizontal scroll) inside html */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(39, 92, 89);
+  font-family: Barlow, sans-serif;
+}
+
+.button-container {
+  border: 2px solid rgb(0, 231, 112);
+  padding: 10px;
+  border-radius: 7px;
+  /* Inset means the shadow is going to be on the inside object
+  rather than on the outside if you have left it blank */
+  box-shadow: inset 0 20px 4px -19px rgba(0, 0, 0, 0.7);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 2px 5px black;
+  background: linear-gradient(to top, #696969, #575757);
+  border: 2px solid black;
+  border-radius: 7px;
+  box-shadow: inset 0 20px 4px -19px rgba(0, 0, 0, 0.4),
+    0 12px 12px 0 rgba(199, 234, 188, 0.3);
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #696969, #575757);
+  border: 2px solid black;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(199, 234, 188, 0.3);
+}
