@@ -2,7 +2,7 @@
 
 This project provides a simple web application that allows users to initiate picture-in-picture mode for video streaming. The application is built using HTML, CSS, and JavaScript. You can view it live through click the link below!
 
-## [Watch Live](https://github.com/chaad98/picture-in-picture.git)
+## [Watch Live](https://chaad98.github.io/picture-in-picture/)
 
 ## Features
 
